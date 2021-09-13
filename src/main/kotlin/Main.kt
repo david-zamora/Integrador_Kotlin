@@ -88,16 +88,8 @@ data class Parking(val vehicles: MutableSet<Vehicle>){ //Se define como Set ya q
         lista.forEach{
             parking.checkIn(it)
         }
-//        val car = Vehicle("AAA111", VehicleType.CAR, Calendar.getInstance(), "DISCOUNT_CARD_001")
-
         /*	val car2 = Vehicle("AAA111", VehicleType.CAR, Calendar.getInstance(), "DISCOUNT_CARD_001")
-            val isCar2Inserted = parking.vehicles.add(car2)
-          */
-
-        //println(parking.vehicles.contains(car))
-        /* println(parking.vehicles.contains(moto))
-         println(parking.vehicles.contains(minibus))
-         println(parking.vehicles.contains(bus))
+            val isCar2Inserted = parking.vehicles.ad
 
        */
         // println(parking)
